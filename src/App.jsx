@@ -5,10 +5,10 @@ import ChartSection from './components/ChartSection'
 import Footer from './components/Footer'
 import Modal from './components/Modal'
 import Navbar from './components/Navbar'
-import Review from './components/Review'
 import TrackerSection from './components/TrackerSection'
 import './index.css'
 import Simplicity from './components/Simplicity'
+import PeopleSection from './components/PeopleSection'
 
 function App() {
   const [toggle,setToggle] = useState(false)
@@ -26,7 +26,8 @@ function App() {
 <Modal toggle={toggle} />
 <ChartSection/>
 <TrackerSection/>
-<Review/>
+<PeopleSection/>
+
 <Simplicity/>
 <Footer/>
       </main>
